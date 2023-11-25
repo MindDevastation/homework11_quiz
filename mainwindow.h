@@ -22,7 +22,7 @@ public:
     int i = 0;
     int score = 0;
     QTime time;
-
+    QTimer *timer;
 
 private slots:
     void on_Start_clicked();
@@ -33,6 +33,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QTimer *timer;
+
 };
 #endif // MAINWINDOW_H
